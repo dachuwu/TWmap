@@ -5,8 +5,8 @@
 \title{Creat a static map of geo-specific measurements}
 \usage{
 twmap_static(geo.code, x, geo.level = "county", x.name = "xname",
-  col.control = list(option = "viridis", dir = 1),
-  thm.control = list(border = "white", back = "grey90"), add.seg = T)
+  col.control = list(option = "viridis", dir = 1, na.color = "grey50"),
+  thm.control = list(border = "white", back = "grey90"))
 }
 \arguments{
 \item{geo.code}{area code in MOI format.}
@@ -19,12 +19,11 @@ twmap_static(geo.code, x, geo.level = "county", x.name = "xname",
 
 \item{col.control}{a list of  parameters controling the coloring scale.
 (1)`option`: A character string indicating the colormap option to use. Four options are available: "magma" (or "A"), "inferno" (or "B"), "plasma" (or "C"), "viridis" (or "D", the default option) and "cividis" (or "E").
-(2)`dir`: Sets the order of colors in the scale. If 1, the default, colors are ordered from darkest to lightest. If -1, the order of colors is reversed.}
+(2)`dir`: Sets the order of colors in the scale. If 1, the default, colors are ordered from darkest to lightest. If -1, the order of colors is reversed.
+(3)`na.color`: the color of NA values.}
 
 \item{thm.control}{a list of  parameters controling the theme of the map.
 (1) border: the color of the border lines. (2) back: the filled color of the map background.}
-
-\item{add.seg}{logical (default = True). Whether to ass segments near the island counties.}
 }
 \value{
 a ggplot object.
