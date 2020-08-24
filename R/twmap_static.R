@@ -53,7 +53,7 @@ twmap_static <- function(geo.code, x,
   G <- ggplot2::ggplot(gdf)+
     ggplot2::geom_sf(ggplot2::aes(fill = xv, geometry = geometry),
                      color = thm.control$border, size=.1)+
-    ggplot2::coord_sf(xlim = c(118.4,122.8), ylim = c(21.85,25.35), ndiscr = 0)+
+    ggplot2::coord_sf(xlim = c(118.4,123), ylim = c(21.85,25.35), ndiscr = 0)+
     ggplot2::labs(x="",y="")+
     ggplot2::theme(
           plot.background = ggplot2::element_rect(fill = thm.control$back, color = thm.control$back),
