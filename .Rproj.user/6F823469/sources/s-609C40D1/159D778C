@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1598205890799.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "159D778C",
+    "lastKnownWriteTime" : 1598205981,
+    "last_content_update" : 1598205981682,
+    "path" : "C:/Users/user/Desktop/TBDC_transfer/TWmap/test/gen_data.R",
+    "project_path" : "test/gen_data.R",
+    "properties" : {
+        "cursorPosition" : "34,0",
+        "scrollLine" : "9",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
