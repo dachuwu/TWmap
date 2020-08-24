@@ -6,24 +6,35 @@
 \usage{
 twmap_static(geo.code, x, geo.level = "county", x.name = "xname",
   col.control = list(option = "viridis", dir = 1, na.color = "grey50"),
-  thm.control = list(border = "white", back = "grey90"))
+  thm.control = list(border = "white", border.width = 0.2, back =
+  "grey90"), show.island = T)
 }
 \arguments{
 \item{geo.code}{area code in MOI format.}
 
-\item{x}{plotted variable for each area. Must be an integer or numeric vector with the same length of `acode`.}
+\item{x}{plotted variable for each area. Must be an integer or numeric vector with the same length of \code{geo.code}.}
 
-\item{geo.level}{the geographic level of `geo.code`. One of "town", "county", "region", "nation", and "urcanicity".}
+\item{geo.level}{the geographic level of \code{geo.code}. One of "town", "county", "region", and "nation".}
 
 \item{x.name}{the name of the plotted variable `x` which is the legend title.}
 
 \item{col.control}{a list of  parameters controling the coloring scale.
-(1)`option`: A character string indicating the colormap option to use. Four options are available: "magma" (or "A"), "inferno" (or "B"), "plasma" (or "C"), "viridis" (or "D", the default option) and "cividis" (or "E").
-(2)`dir`: Sets the order of colors in the scale. If 1, the default, colors are ordered from darkest to lightest. If -1, the order of colors is reversed.
-(3)`na.color`: the color of NA values.}
+
+(1) \code{option}: A character string indicating the colormap option to use. Four options are available: "magma" (or "A"), "inferno" (or "B"), "plasma" (or "C"), "viridis" (or "D", the default option) and "cividis" (or "E").
+
+(2) \code{dir}: Sets the order of colors in the scale. If 1, the default, colors are ordered from darkest to lightest. If -1, the order of colors is reversed.
+
+(3) \code{na.color}: the color of NA values. See also [ggplot2::scale_colour_viridis_d]}
 
 \item{thm.control}{a list of  parameters controling the theme of the map.
-(1) border: the color of the border lines. (2) back: the filled color of the map background.}
+
+(1) \code{border}: the color of the border lines.
+
+(2) \code{border.width}: the width of the border lines.
+
+(3) \code{back}: the filled color of the map background.}
+
+\item{show.island}{logical (default = T). Whether to show island counties on map.}
 }
 \value{
 a ggplot object.

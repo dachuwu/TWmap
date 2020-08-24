@@ -13,3 +13,4 @@ TWmap: A package for making Taiwan maps by adminstrative divisions.
 The  functions ...
 }
 
+\keyword{internal}

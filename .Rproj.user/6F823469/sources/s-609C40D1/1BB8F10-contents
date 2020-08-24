@@ -10,7 +10,7 @@ df <- attri_death_pm25%>%
   ungroup()
 
 TWmap::twmap_static(geo.code = df$county, x = df$xv,
-                    geo.level = "county", x.name = "all_att_death")
+                    geo.level = "county", x.name = "all_att_death", show.island = F)
 
 
 

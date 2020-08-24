@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "545855285",
+    "hash" : "3701917147",
     "id" : "6A54CDBA",
-    "lastKnownWriteTime" : 1598246699,
-    "last_content_update" : 1598246699636,
+    "lastKnownWriteTime" : 1598258447,
+    "last_content_update" : 1598258447670,
     "path" : "C:/Users/user/Desktop/TBDC_transfer/TWmap/R/twmap_static.R",
     "project_path" : "R/twmap_static.R",
     "properties" : {
-        "cursorPosition" : "63,37",
-        "scrollLine" : "46"
+        "cursorPosition" : "24,27",
+        "scrollLine" : "9"
     },
     "relative_order" : 4,
     "source_on_save" : false,

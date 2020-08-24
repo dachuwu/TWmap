@@ -8,4 +8,5 @@
 #'
 #' @importFrom magrittr %>%
 #'
+#' @keywords internal
 NULL
