@@ -4,7 +4,16 @@
 \name{attri_death_pm25}
 \alias{attri_death_pm25}
 \title{Demo dataset: Deaths attributable to PM.2.5 (Taiwan 2013)}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 352 rows and 7 columns.}
+\format{A data frame with 352 rows and 7 variables:
+\describe{
+  \item{town}{town code, MOI format (preferred)}
+  \item{towncode_new}{town code, MOH format}
+  \item{IHD_att_death}{IHD deaths attributable to PM2.5}
+  \item{stroke_att_death}{stroke deaths attributable to PM2.5}
+  \item{lung_att_death}{lung cancer deaths attributable to PM2.5}
+  \item{copd_att_death}{COPD deaths attributable to PM2.5}
+  \item{all_att_death}{Total deaths attributable to PM2.5}
+}}
 \source{
 Nicholas
 }

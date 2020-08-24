@@ -24,7 +24,7 @@ twmap_static(geo.code, x, geo.level = "county", x.name = "xname",
 
 (2) \code{dir}: Sets the order of colors in the scale. If 1, the default, colors are ordered from darkest to lightest. If -1, the order of colors is reversed.
 
-(3) \code{na.color}: the color of NA values. See also [ggplot2::scale_colour_viridis_d]}
+(3) \code{na.color}: the color of NA values. See also [ggplot2::scale_colour_viridis_d()].}
 
 \item{thm.control}{a list of  parameters controling the theme of the map.
 
