@@ -15,6 +15,7 @@
 #'
 #' @importFrom ggplot2
 #' @importFrom sf
+#' @importFrom magrittr %>%
 #'
 #' @export
 #'
