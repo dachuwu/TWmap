@@ -26,7 +26,7 @@
 #'
 #'
 #' @importFrom magrittr %>%
-#' @importFrom ggplot2 scale_colour_viridis_d
+#'
 #' @export
 #'
 twmap_static <- function(geo.code, x, geo.level = "county",
@@ -57,8 +57,6 @@ twmap_static <- function(geo.code, x, geo.level = "county",
     bmap <- bmap %>%
       filter(!substr(geo.code,1,5) %in% c("10016","09007","09020") & geo.code != "Island")
   }
-
-
   if(!all(geo.code %in% bmap$geo.code)){
     ind <- which(geo.code %in% bmap$geo.code)
     geo.code <- geo.code[ind]
@@ -96,7 +94,7 @@ twmap_static <- function(geo.code, x, geo.level = "county",
     ggplot2::coord_sf(xlim = c(118.4, 123.3), ylim = c(21.85, 25.38), ndiscr = 0)+
     ggplot2::labs(x="",y="")+
     ggplot2::theme(
-          plot.background = ggplot2::element_blank(),
+          plot.background = ggplot2::element_rect(fill = thm.ctrl$back, color = thm.ctrl$back),
           plot.margin = ggplot2::unit(c(0,0,0,0), "cm"),
           panel.background = ggplot2::element_rect(fill = thm.ctrl$back, color = thm.ctrl$back),
           legend.background = ggplot2::element_blank(),
@@ -112,7 +110,8 @@ twmap_static <- function(geo.code, x, geo.level = "county",
   } else if(class(gdf$xv) == "factor"){
     G <- G +
       ggplot2::scale_fill_viridis_d(option = col.ctrl$option, direction = col.ctrl$dir,
-                                    na.value =  col.ctrl$na.color)+
+                                    na.value =  col.ctrl$na.color,
+                                    drop = F)+
       ggplot2::guides(fill = ggplot2::guide_legend(title = x.name))
   }
 

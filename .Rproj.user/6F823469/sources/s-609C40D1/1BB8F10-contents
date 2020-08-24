@@ -10,7 +10,7 @@ df <- attri_death_pm25%>%
   ungroup()
 
 TWmap::twmap_static(geo.code = df$county, x = df$xv,
-                    geo.level = "county", x.name = "all_att_death", show.island = F)
+                    geo.level = "county", x.name = "all_att_death", show.island = T)
 
 
 
@@ -36,8 +36,8 @@ TWmap::twmap_static(geo.code = df$town, x = df$xv,
 ### 3. township-specific measures (discrete scale)
 df <- df %>%
   mutate(
-    xv_d = cut(xv, breaks = c(0,  1000, 2000, 3000, 4000, Inf),
-               labels = c("0~1000", "1000~2000", "2000~3000","3000~4000", "4000+"))
+    xv_d = cut(xv, breaks = c(0,  1000, 2000, 3000, 6000, Inf),
+               labels = c("0~1000", "1000~2000", "2000~3000","3000~4000", "6000+"))
     )
 
 TWmap::twmap_static(geo.code = df$town, x = df$xv_d,
