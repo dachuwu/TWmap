@@ -1,6 +1,6 @@
 library(TWmap)
 
-
+library(dplyr)
 
 ### 1. county-specific measures (continuous scale)
 df <- attri_death_pm25%>%
@@ -17,7 +17,7 @@ map <- TWmap::twmap_static(geo.code = df$county, x = df$xv,
 ### 2. county-specific measures (discrete scale)
 df <- df%>%
   mutate(
-    xv_d = cut(xv, breaks = seq(0, 700, 100))
+    xv_d = cut(xv, breaks = seq(-100, 700, 100))
   )
 
 TWmap::twmap_static(geo.code = df$county, x = df$xv_d,

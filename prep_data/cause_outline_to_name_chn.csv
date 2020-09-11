@@ -1,0 +1,713 @@
+cause_id,cause_outline,acause,cause_name,cause_short,level,
+295,A,_comm,"Communicable, maternal, neonatal, and nutritional diseases",Group I,1,傳染性疾病
+955,A.01,_hiv_std,HIV/AIDS and sexually transmitted infections,HIV/AIDS+STIs,2,愛滋病及經性行為傳播之感染
+298,A.01.01,hiv,HIV/AIDS,HIV,3,人類免疫缺乏病毒/愛滋病
+298,A.01.01.00,hiv,HIV/AIDS,HIV,4,人類免疫缺乏病毒/愛滋病
+948,A.01.01.01,hiv_tb_other,HIV/AIDS - Drug-susceptible Tuberculosis,Drug-Sus HIV-TB,4,人類免疫缺乏病毒/愛滋病-藥物敏感性肺結核
+949,A.01.01.02,hiv_tb_mdr,HIV/AIDS - Multidrug-resistant Tuberculosis without extensive drug resistance,MDR-HIV-TB,4,人類免疫缺乏病毒/愛滋病-排除廣泛抗藥性之多重抗藥性結核病
+950,A.01.01.03,hiv_tb_xdr,HIV/AIDS - Extensively drug-resistant Tuberculosis,XDR-HIV-TB,4,人類免疫缺乏病毒/愛滋病-廣泛抗藥性結核病
+300,A.01.01.04,hiv_other,HIV/AIDS resulting in other diseases,Oth HIV,4,人類免疫缺乏病毒/愛滋病所致之其他疾病
+393,A.01.02,std,Sexually transmitted infections excluding HIV,STI,3,排除人類免疫缺乏病毒所致之經性行為傳播之感染
+393,A.01.02.00,std,Sexually transmitted infections excluding HIV,STI,4,排除人類免疫缺乏病毒所致之經性行為傳播之感染
+394,A.01.02.01,std_syphilis,Syphilis,Syphilis,4,梅毒
+395,A.01.02.02,std_chlamydia,Chlamydial infection,Chlamydia,4,披衣菌感染
+396,A.01.02.03,std_gonnorhea,Gonococcal infection,Gonorrhea,4,淋球菌感染
+397,A.01.02.04,std_tricho,Trichomoniasis,Trich,4,滴蟲病
+398,A.01.02.05,std_herpes,Genital herpes,Herpes,4,生殖器?疹
+399,A.01.02.06,std_other,Other sexually transmitted infections,Oth STI,4,其他經性行為傳播之感染
+956,A.02,_ri,Respiratory infections and tuberculosis,Resp+TB,2,呼吸道感染及結核病
+297,A.02.01,tb,Tuberculosis,TB,3,結核病
+297,A.02.01.00,tb,Tuberculosis,TB,4,結核病
+954,A.02.01.01,tb_latent,Latent tuberculosis infection,LTBI,4,潛伏性結核感染
+934,A.02.01.02,tb_other,Drug-susceptible tuberculosis,Drug-Sus TB,4,藥物敏感性結核病
+946,A.02.01.03,tb_mdr,Multidrug-resistant tuberculosis without extensive drug resistance,MDR-TB,4,排除廣泛抗藥性之多重抗藥性結核病
+947,A.02.01.04,tb_xdr,Extensively drug-resistant tuberculosis,XDR-TB,4,廣泛抗藥性結核病
+322,A.02.02,lri,Lower respiratory infections,LRI,3,下呼吸道感染
+322,A.02.02.00,lri,Lower respiratory infections,LRI,4,下呼吸道感染
+323,A.02.02.01,lri_flu,Influenza,LRI-Flu,4,流行性感冒
+324,A.02.02.02,lri_pneumo,Pneumococcal pneumonia,LRI-Pne,4,肺炎鏈球菌肺炎
+325,A.02.02.03,lri_hib,H influenzae type B pneumonia,LRI-HiB,4,B型流感嗜血桿菌肺炎
+1018,A.02.02.04,lri_gbs,Group B streptococcus lri,LRI-GBS,4,B群鏈球菌下呼吸道感染
+326,A.02.02.05,lri_rsv,Respiratory syncytial virus pneumonia,LRI-RSV,4,呼吸道融合細胞病毒肺炎
+327,A.02.02.06,lri_other,Other lower respiratory infections,LRI-Oth,4,其他下呼吸道感染
+328,A.02.03,uri,Upper respiratory infections,URI,3,上呼吸道感染
+328,A.02.03.00,uri,Upper respiratory infections,URI,4,上呼吸道感染
+329,A.02.04,otitis,Otitis media,Otitis,3,中耳炎
+329,A.02.04.00,otitis,Otitis media,Otitis,4,中耳炎
+957,A.03,_enteric_all,Enteric infections,Enteric Infect,2,腸道感染
+302,A.03.01,diarrhea,Diarrheal diseases,Diarrhea,3,腹瀉疾病
+302,A.03.01.00,diarrhea,Diarrheal diseases,Diarrhea,4,腹瀉疾病
+303,A.03.01.01,diarrhea_cholera,Cholera,Cholera,4,霍亂
+304,A.03.01.02,diarrhea_salmonella,Other salmonella infections,Salmonella,4,其他沙門桿菌感染之腹瀉
+305,A.03.01.03,diarrhea_shigellosis,Shigellosis,Shigellosis,4,志賀桿菌病
+306,A.03.01.04,diarrhea_epec,Enteropathogenic E coli infection,EPEC,4,腸致病性大腸桿菌感染
+307,A.03.01.05,diarrhea_etec,Enterotoxigenic E coli infection,ETEC,4,腸毒性大腸桿菌感染
+308,A.03.01.06,diarrhea_campylobac,Campylobacter enteritis,Campylo,4,彎曲桿菌性腸炎
+309,A.03.01.07,diarrhea_amoebiasis,Amoebiasis,Amoebiasis,4,阿米巴症
+310,A.03.01.08,diarrhea_cryptospor,Cryptosporidiosis,Crypto,4,隱孢子蟲症
+311,A.03.01.09,diarrhea_rotavirus,Rotaviral enteritis,Rotavirus,4,輪狀病毒性腸炎
+312,A.03.01.10,diarrhea_aeromonas,Aeromonas,Aeromonas,4,親水性產氣單胞菌感染
+313,A.03.01.11,diarrhea_clostridium,Clostridium difficile,Clostridium,4,困難梭狀桿菌所致之腹瀉
+314,A.03.01.12,diarrhea_norovirus,Norovirus,Norovirus,4,諾羅病毒所致之腹瀉
+315,A.03.01.13,diarrhea_adenovirus,Adenovirus,Adenovirus,4,腺病毒所致之腹瀉
+316,A.03.01.14,diarrhea_foodborne,Other bacterial foodborne diarrhea,FB Bact,4,其他細菌性食源性腹瀉
+317,A.03.01.15,diarrhea_other,Other diarrheal diseases,Oth Diar,4,其他腹瀉疾病
+958,A.03.02,intest_typhpartyph,Typhoid and paratyphoid,Typh + Paratyph,3,傷寒及副傷寒
+958,A.03.02.00,intest_typhpartyph,Typhoid and paratyphoid,Typh + Paratyph,4,傷寒及副傷寒
+319,A.03.02.01,intest_typhoid,Typhoid fever,Typhoid,4,傷寒
+320,A.03.02.02,intest_paratyph,Paratyphoid fever,Paratyph,4,副傷寒
+959,A.03.03,intest_ints,Invasive Non-typhoidal Salmonella (iNTS),iNTS,3,侵襲性非傷寒沙門氏菌感染
+959,A.03.03.00,intest_ints,Invasive Non-typhoidal Salmonella (iNTS),iNTS,4,侵襲性非傷寒沙門氏菌感染
+960,A.03.04,polio,Poliomyelitis,Polio,3,脊髓灰白質炎
+960,A.03.04.00,polio,Poliomyelitis,Polio,4,脊髓灰白質炎
+321,A.03.05,intest_other,Other intestinal infectious diseases,Oth Intest,3,其他腸道感染疾病
+321,A.03.05.00,intest_other,Other intestinal infectious diseases,Oth Intest,4,其他腸道感染疾病
+344,A.04,_ntd,Neglected tropical diseases and malaria,NTD+Malaria,2,被忽視的熱帶疾病及瘧疾
+345,A.04.01,malaria,Malaria,Malaria,3,瘧疾
+345,A.04.01.00,malaria,Malaria,Malaria,4,瘧疾
+856,A.04.01.01,malaria_falciparum,Malaria falciparum,Malaria F,4,惡性瘧疾
+857,A.04.01.02,malaria_vivax,Malaria vivax,Malaria V,4,間日瘧疾
+858,A.04.01.03,malaria_other,Other type and mix form of malaria,Oth Malaria,4,其他瘧疾
+346,A.04.02,ntd_chagas,Chagas disease,Chagas,3,查加斯氏病
+346,A.04.02.00,ntd_chagas,Chagas disease,Chagas,4,查加斯氏病
+347,A.04.03,ntd_leish,Leishmaniasis,Leish,3,利什曼原蟲症
+347,A.04.03.00,ntd_leish,Leishmaniasis,Leish,4,利什曼原蟲症
+348,A.04.03.01,ntd_leish_visc,Visceral leishmaniasis,Vis Leish,4,內臟型利什曼原蟲症
+349,A.04.03.02,ntd_leish_cut,Cutaneous and mucocutaneous leishmaniasis,Cut Leish,4,皮膚型及黏膜皮膚型利什曼原蟲症
+350,A.04.04,ntd_afrtryp,African trypanosomiasis,Afr Tryp,3,非洲錐蟲症
+350,A.04.04.00,ntd_afrtryp,African trypanosomiasis,Afr Tryp,4,非洲錐蟲症
+351,A.04.05,ntd_schisto,Schistosomiasis,Schisto,3,血吸蟲症
+351,A.04.05.00,ntd_schisto,Schistosomiasis,Schisto,4,血吸蟲症
+352,A.04.06,ntd_cysticer,Cysticercosis,Cysticer,3,囊蟲症
+352,A.04.06.00,ntd_cysticer,Cysticercosis,Cysticer,4,囊蟲症
+353,A.04.07,ntd_echino,Cystic echinococcosis,Echino,3,包絛蟲症
+353,A.04.07.00,ntd_echino,Cystic echinococcosis,Echino,4,包絛蟲症
+354,A.04.08,ntd_lf,Lymphatic filariasis,LF,3,淋巴絲蟲症
+354,A.04.08.00,ntd_lf,Lymphatic filariasis,LF,4,淋巴絲蟲症
+355,A.04.09,ntd_oncho,Onchocerciasis,Oncho,3,蟠尾絲蟲症
+355,A.04.09.00,ntd_oncho,Onchocerciasis,Oncho,4,蟠尾絲蟲症
+356,A.04.10,ntd_trachoma,Trachoma,Trachoma,3,砂眼
+356,A.04.10.00,ntd_trachoma,Trachoma,Trachoma,4,砂眼
+357,A.04.11,ntd_dengue,Dengue,Dengue,3,登革熱
+357,A.04.11.00,ntd_dengue,Dengue,Dengue,4,登革熱
+358,A.04.12,ntd_yellowfever,Yellow fever,Yellow Fev,3,黃熱病
+358,A.04.12.00,ntd_yellowfever,Yellow fever,Yellow Fev,4,黃熱病
+359,A.04.13,ntd_rabies,Rabies,Rabies,3,狂犬病
+359,A.04.13.00,ntd_rabies,Rabies,Rabies,4,狂犬病
+360,A.04.14,ntd_nema,Intestinal nematode infections,Nematode,3,腸道線蟲感染
+360,A.04.14.00,ntd_nema,Intestinal nematode infections,Nematode,4,腸道線蟲感染
+361,A.04.14.01,ntd_nema_ascar,Ascariasis,Ascaria,4,蛔蟲症
+362,A.04.14.02,ntd_nema_trichur,Trichuriasis,Trichuria,4,鞭蟲症
+363,A.04.14.03,ntd_nema_hook,Hookworm disease,Hookworm,4,鉤蟲症
+364,A.04.15,ntd_foodborne,Food-borne trematodiases,FB Trema,3,食源性吸蟲症
+364,A.04.15.00,ntd_foodborne,Food-borne trematodiases,FB Trema,4,食源性吸蟲症
+405,A.04.16,leprosy,Leprosy,Leprosy,3,癩病
+405,A.04.16.00,leprosy,Leprosy,Leprosy,4,癩病
+843,A.04.17,ntd_ebola,Ebola,Ebola,3,伊波拉病毒疾病
+843,A.04.17.00,ntd_ebola,Ebola,Ebola,4,伊波拉病毒疾病
+935,A.04.18,ntd_zika,Zika virus,Zika,3,茲卡病毒疾病
+935,A.04.18.00,ntd_zika,Zika virus,Zika,4,茲卡病毒疾病
+936,A.04.19,ntd_guinea,Guinea worm disease,GWD,3,幾內亞蟲疾病
+936,A.04.19.00,ntd_guinea,Guinea worm disease,GWD,4,幾內亞蟲疾病
+365,A.04.20,ntd_other,Other neglected tropical diseases,Oth NTD,3,其他被忽視的熱帶疾病
+365,A.04.20.00,ntd_other,Other neglected tropical diseases,Oth NTD,4,其他被忽視的熱帶疾病
+961,A.05,_infect,Other infectious diseases,Other+Diseases,2,其他感染疾病
+332,A.05.01,meningitis,Meningitis,Meningitis,3,腦膜炎
+332,A.05.01.00,meningitis,Meningitis,Meningitis,4,腦膜炎
+333,A.05.01.01,meningitis_pneumo,Pneumococcal meningitis,Mng Pne,4,肺炎鏈球菌腦膜炎
+334,A.05.01.02,meningitis_hib,H influenzae type B meningitis,Mng HiB,4,B型流感嗜血桿菌腦膜炎
+1019,A.05.01.03,meningitis_gbs,Group B streptococcus meningitis,Mng GBS,4,B群鏈球菌腦膜炎
+335,A.05.01.04,meningitis_meningo,Meningococcal meningitis,Mng Men,4,腦膜炎雙球菌腦膜炎
+336,A.05.01.05,meningitis_other,Other meningitis,Oth Mng,4,其他腦膜炎
+337,A.05.02,encephalitis,Encephalitis,Encepha,3,腦炎
+337,A.05.02.00,encephalitis,Encephalitis,Encepha,4,腦炎
+338,A.05.03,diptheria,Diphtheria,Diphtheria,3,白喉
+338,A.05.03.00,diptheria,Diphtheria,Diphtheria,4,白喉
+339,A.05.04,whooping,Whooping cough,Whooping,3,百日咳
+339,A.05.04.00,whooping,Whooping cough,Whooping,4,百日咳
+340,A.05.05,tetanus,Tetanus,Tetanus,3,破傷風
+340,A.05.05.00,tetanus,Tetanus,Tetanus,4,破傷風
+341,A.05.06,measles,Measles,Measles,3,麻疹
+341,A.05.06.00,measles,Measles,Measles,4,麻疹
+342,A.05.07,varicella,Varicella and herpes zoster,Varicella,3,水痘及帶狀?疹
+342,A.05.07.00,varicella,Varicella and herpes zoster,Varicella,4,水痘及帶狀?疹
+1003,A.05.08,rubella,Rubella,Rubella,3,德國麻疹
+1003,A.05.08.00,rubella,Rubella,Rubella,4,德國麻疹
+400,A.05.09,hepatitis,Acute hepatitis,Hep,3,急性病毒性肝炎
+400,A.05.09.00,hepatitis,Acute hepatitis,Hep,4,急性病毒性肝炎
+401,A.05.09.01,hepatitis_a,Acute hepatitis A,Hep A,4,急性A型肝炎
+402,A.05.09.02,hepatitis_b,Acute hepatitis B,Hep B,4,急性B型肝炎
+403,A.05.09.03,hepatitis_c,Acute hepatitis C,Hep C,4,急性C型肝炎
+404,A.05.09.04,hepatitis_e,Acute hepatitis E,Hep E,4,急性E型肝炎
+408,A.05.10,infectious,Other unspecified infectious diseases,Oth Un Inf,3,其他未特定的感染疾病
+408,A.05.10.00,infectious,Other unspecified infectious diseases,Oth Un Inf,4,其他未特定的感染疾病
+343,A.05.10.01,mumps,Mumps,Mumps,4,流行性腮腺炎
+406,A.05.10.02,zoonotic,Zoonotic bacterial diseases,Zoonotic Bac,4,動物媒介的細菌性疾病
+407,A.05.10.03,herpes,Non-genital herpes infection,NG Herpes,4,非生殖器?疹感染
+937,A.05.10.04,infectious_drug,Other drug-resistant infectious diseases,Oth DR Inf,4,其他抗藥性感染疾病
+962,A.06,mater_neonat,Maternal and neonatal disorders,Mat+Neonat,2,母體及新生兒疾患
+366,A.06.01,maternal,Maternal disorders,Maternal,3,母體疾患
+366,A.06.01.00,maternal,Maternal disorders,Maternal,4,母體疾患
+367,A.06.01.01,maternal_hem,Maternal hemorrhage,Mat Hem,4,母體出血
+368,A.06.01.02,maternal_sepsis,Maternal sepsis and other maternal infections,Mat Sepsis,4,母體敗血症及其他母體感染
+369,A.06.01.03,maternal_htn,Maternal hypertensive disorders,Mat HTN,4,母體高血壓疾患
+370,A.06.01.04,maternal_obstruct,Maternal obstructed labor and uterine rupture,Obst Labor,4,母體阻礙性產程及子宮破裂
+995,A.06.01.05,maternal_abort_mis,Maternal abortion and miscarriage,Mat Abort,4,母體流產
+372,A.06.01.05.01,maternal_abort_spont,Spontaneous abortion,Spont Abort,5,自發性流產
+373,A.06.01.05.02,maternal_abort_induc,Induced abortion,Induc Abort,5,人工流產
+374,A.06.01.06,maternal_abort_ectopic,Ectopic pregnancy,Ectopic Preg,4,子宮外孕
+375,A.06.01.07,maternal_indirect,Indirect maternal deaths,Mat Indir,4,間接性母體死亡
+376,A.06.01.08,maternal_late,Late maternal deaths,Mat Late,4,晚期母體死亡
+741,A.06.01.09,maternal_hiv,Maternal deaths aggravated by HIV/AIDS,Mat HIV,4,人類免疫缺乏病毒/愛滋病加重之母體死亡
+379,A.06.01.10,maternal_other,Other maternal disorders,Oth Mat,4,其他母體疾患
+377,A.06.01.10.01,maternal_delivery,Maternal delivery,Mat Delivery,5,分娩
+378,A.06.01.10.02,maternal_pregnancy,Pregnancy and postpartum care,Preg PPC,5,妊娠及產後照護
+380,A.06.02,neonatal,Neonatal disorders,Neonatal,3,新生兒疾患
+380,A.06.02.00,neonatal,Neonatal disorders,Neonatal,4,新生兒疾患
+381,A.06.02.01,neonatal_preterm,Neonatal preterm birth,NN Preterm,4,新生兒早產
+382,A.06.02.02,neonatal_enceph,Neonatal encephalopathy due to birth asphyxia and trauma,NN Enceph,4,窒息及產傷所致之新生兒腦病變
+383,A.06.02.03,neonatal_sepsis,Neonatal sepsis and other neonatal infections,NN Sepsis,4,新生兒敗血症及其他感染
+1020,A.06.02.03.01,neonatal_sepsis_gbs,Group B streptococcus neonatal sepsis,NN Sepsis GBS,5,B群鏈球菌新生兒敗血症
+384,A.06.02.04,neonatal_hemolytic,Hemolytic disease and other neonatal jaundice,NN Hemol,4,溶血性疾病及其他新生兒黃疸
+385,A.06.02.05,neonatal_other,Other neonatal disorders,Oth NN,4,其他新生兒疾患
+386,A.07,nutrition,Nutritional deficiencies,Nutr Def,2,營養缺乏
+387,A.07.01,nutrition_pem,Protein-energy malnutrition,PEM,3,蛋白質能量營養不良
+387,A.07.01.00,nutrition_pem,Protein-energy malnutrition,PEM,4,蛋白質能量營養不良
+388,A.07.02,nutrition_iodine,Iodine deficiency,Iodine,3,碘缺乏症
+388,A.07.02.00,nutrition_iodine,Iodine deficiency,Iodine,4,碘缺乏症
+389,A.07.03,nutrition_vitamina,Vitamin A deficiency,Vit A,3,維生素A缺乏症
+389,A.07.03.00,nutrition_vitamina,Vitamin A deficiency,Vit A,4,維生素A缺乏症
+390,A.07.04,nutrition_iron,Dietary iron deficiency,Iron,3,飲食性鐵缺乏症
+390,A.07.04.00,nutrition_iron,Dietary iron deficiency,Iron,4,飲食性鐵缺乏症
+391,A.07.05,nutrition_other,Other nutritional deficiencies,Oth Nutr,3,其他營養缺乏症
+391,A.07.05.00,nutrition_other,Other nutritional deficiencies,Oth Nutr,4,其他營養缺乏症
+409,B,_ncd,Non-communicable diseases,NCD,1,非傳染性疾病
+410,B.01,_neo,Neoplasms,Neoplasms,2,腫瘤
+444,B.01.01,neo_mouth,Lip and oral cavity cancer,Lip Oral C,3,唇及口腔癌
+444,B.01.01.00,neo_mouth,Lip and oral cavity cancer,Lip Oral C,4,唇及口腔癌
+447,B.01.02,neo_nasopharynx,Nasopharynx cancer,Nasoph C,3,鼻咽癌
+447,B.01.02.00,neo_nasopharynx,Nasopharynx cancer,Nasoph C,4,鼻咽癌
+450,B.01.03,neo_otherpharynx,Other pharynx cancer,Oth Phar C,3,其他咽癌
+450,B.01.03.00,neo_otherpharynx,Other pharynx cancer,Oth Phar C,4,其他咽癌
+411,B.01.04,neo_esophageal,Esophageal cancer,Esophag C,3,食道癌
+411,B.01.04.00,neo_esophageal,Esophageal cancer,Esophag C,4,食道癌
+414,B.01.05,neo_stomach,Stomach cancer,Stomach C,3,胃癌
+414,B.01.05.00,neo_stomach,Stomach cancer,Stomach C,4,胃癌
+441,B.01.06,neo_colorectal,Colon and rectum cancer,Colorect C,3,直腸及結腸癌
+441,B.01.06.00,neo_colorectal,Colon and rectum cancer,Colorect C,4,直腸及結腸癌
+417,B.01.07,neo_liver,Liver cancer,Liver C,3,肝癌
+417,B.01.07.00,neo_liver,Liver cancer,Liver C,4,肝癌
+418,B.01.07.01,neo_liver_hepb,Liver cancer due to hepatitis B,Liver C HepB,4,B型肝炎所致之肝癌
+419,B.01.07.02,neo_liver_hepc,Liver cancer due to hepatitis C,Liver C HepC,4,C型肝炎所致之肝癌
+420,B.01.07.03,neo_liver_alcohol,Liver cancer due to alcohol use,Liver C Alc,4,酒精使用所致之肝癌
+996,B.01.07.04,neo_liver_nash,Liver cancer due to NASH,Liver C NASH,4,非酒精性脂性肝炎所致之肝癌
+1005,B.01.07.05,neo_liver_hbl,Hepatoblastoma,Liver C HBL,4,肝母細胞瘤
+421,B.01.07.06,neo_liver_other,Liver cancer due to other causes,Oth Liver C,4,其他原因所致之肝癌
+453,B.01.08,neo_gallbladder,Gallbladder and biliary tract cancer,Gallblad C,3,膽囊及膽道癌
+453,B.01.08.00,neo_gallbladder,Gallbladder and biliary tract cancer,Gallblad C,4,膽囊及膽道癌
+456,B.01.09,neo_pancreas,Pancreatic cancer,Pancreas C,3,胰癌
+456,B.01.09.00,neo_pancreas,Pancreatic cancer,Pancreas C,4,胰癌
+423,B.01.10,neo_larynx,Larynx cancer,Larynx C,3,喉癌
+423,B.01.10.00,neo_larynx,Larynx cancer,Larynx C,4,喉癌
+426,B.01.11,neo_lung,"Tracheal, bronchus, and lung cancer",Lung C,3,氣管、支氣管及肺癌
+426,B.01.11.00,neo_lung,"Tracheal, bronchus, and lung cancer",Lung C,4,氣管、支氣管及肺癌
+459,B.01.12,neo_melanoma,Malignant skin melanoma,Melanoma,3,皮膚惡性黑色素瘤
+459,B.01.12.00,neo_melanoma,Malignant skin melanoma,Melanoma,4,皮膚惡性黑色素瘤
+462,B.01.13,neo_nmsc,Non-melanoma skin cancer,Skin C,3,非黑色素瘤之皮膚癌
+462,B.01.13.00,neo_nmsc,Non-melanoma skin cancer,Skin C,4,非黑色素瘤之皮膚癌
+849,B.01.13.01,neo_nmsc_scc,Non-melanoma skin cancer (squamous-cell carcinoma),SCC,4,非黑色素瘤之皮膚癌(鱗狀細胞癌)
+850,B.01.13.02,neo_nmsc_bcc,Non-melanoma skin cancer (basal-cell carcinoma),BCC,4,非黑色素瘤之皮膚癌(基底細胞癌)
+1011,B.01.14,neo_tissue_sarcoma,Soft tissue and other extraosseous sarcomas,Tissue Sarcoma C,3,軟組織及其他骨外肉瘤
+1011,B.01.14.00,neo_tissue_sarcoma,Soft tissue and other extraosseous sarcomas,Tissue Sarcoma C,4,軟組織及其他骨外肉瘤
+1012,B.01.15,neo_bone,Malignant neoplasm of bone and articular cartilage,M Bone+Cartilage,3,骨骼及關節軟骨癌
+1012,B.01.15.00,neo_bone,Malignant neoplasm of bone and articular cartilage,M Bone+Cartilage,4,骨骼及關節軟骨癌
+429,B.01.16,neo_breast,Breast cancer,Breast C,3,乳癌
+429,B.01.16.00,neo_breast,Breast cancer,Breast C,4,乳癌
+432,B.01.17,neo_cervical,Cervical cancer,Cervix C,3,子宮頸癌
+432,B.01.17.00,neo_cervical,Cervical cancer,Cervix C,4,子宮頸癌
+435,B.01.18,neo_uterine,Uterine cancer,Uterus C,3,子宮癌
+435,B.01.18.00,neo_uterine,Uterine cancer,Uterus C,4,子宮癌
+465,B.01.19,neo_ovarian,Ovarian cancer,Ovary C,3,卵巢癌
+465,B.01.19.00,neo_ovarian,Ovarian cancer,Ovary C,4,卵巢癌
+438,B.01.20,neo_prostate,Prostate cancer,Prostate C,3,攝護腺癌
+438,B.01.20.00,neo_prostate,Prostate cancer,Prostate C,4,攝護腺癌
+468,B.01.21,neo_testicular,Testicular cancer,Testis C,3,睪丸癌
+468,B.01.21.00,neo_testicular,Testicular cancer,Testis C,4,睪丸癌
+471,B.01.22,neo_kidney,Kidney cancer,Kidney C,3,腎癌
+471,B.01.22.00,neo_kidney,Kidney cancer,Kidney C,4,腎癌
+474,B.01.23,neo_bladder,Bladder cancer,Bladder C,3,膀胱癌
+474,B.01.23.00,neo_bladder,Bladder cancer,Bladder C,4,膀胱癌
+477,B.01.24,neo_brain,Brain and central nervous system cancer,Brain C,3,腦及中樞神經系統癌
+477,B.01.24.00,neo_brain,Brain and central nervous system cancer,Brain C,4,腦及中樞神經系統癌
+1008,B.01.25,neo_eye,Eye cancer,Eye C,3,眼癌
+1008,B.01.25.00,neo_eye,Eye cancer,Eye C,4,眼癌
+1009,B.01.25.01,neo_eye_rb,Retinoblastoma,Eye C RB,4,視網膜母細胞瘤
+1010,B.01.25.02,neo_eye_other,Other eye cancers,Other Eye,4,其他眼癌
+1013,B.01.26,neo_neuro,Neuroblastoma and other peripheral nervous cell tumors,Neuroblastoma,3,神經母細胞瘤及其他周邊神經細胞瘤
+1013,B.01.26.00,neo_neuro,Neuroblastoma and other peripheral nervous cell tumors,Neuroblastoma,4,神經母細胞瘤及其他周邊神經細胞瘤
+480,B.01.27,neo_thyroid,Thyroid cancer,Thyroid C,3,甲狀腺癌
+480,B.01.27.00,neo_thyroid,Thyroid cancer,Thyroid C,4,甲狀腺癌
+483,B.01.28,neo_meso,Mesothelioma,Mesothel,3,間皮瘤
+483,B.01.28.00,neo_meso,Mesothelioma,Mesothel,4,間皮瘤
+484,B.01.29,neo_hodgkins,Hodgkin lymphoma,Hodgkin,3,何杰金氏淋巴瘤
+484,B.01.29.00,neo_hodgkins,Hodgkin lymphoma,Hodgkin,4,何杰金氏淋巴瘤
+485,B.01.30,neo_lymphoma,Non-Hodgkin lymphoma,Lymphoma,3,非何杰金氏淋巴瘤
+485,B.01.30.00,neo_lymphoma,Non-Hodgkin lymphoma,Lymphoma,4,非何杰金氏淋巴瘤
+1006,B.01.30.01,neo_lymphoma_burkitt,Burkitt lymphoma,Burkitt,4,Burkitt氏淋巴瘤
+1007,B.01.30.02,neo_lymphoma_other,Other non-Hodgkin lymphoma,Oth Lymphoma,4,其他非何杰金氏淋巴瘤
+486,B.01.31,neo_myeloma,Multiple myeloma,Myeloma,3,多發性骨髓瘤
+486,B.01.31.00,neo_myeloma,Multiple myeloma,Myeloma,4,多發性骨髓瘤
+487,B.01.32,neo_leukemia,Leukemia,Leukemia,3,白血病
+487,B.01.32.00,neo_leukemia,Leukemia,Leukemia,4,白血病
+845,B.01.32.01,neo_leukemia_ll_acute,Acute lymphoid leukemia,ALL,4,急性淋巴性白血病
+846,B.01.32.02,neo_leukemia_ll_chronic,Chronic lymphoid leukemia,CLL,4,慢性淋巴性白血病
+847,B.01.32.03,neo_leukemia_ml_acute,Acute myeloid leukemia,AML,4,急性骨髓性白血病
+848,B.01.32.04,neo_leukemia_ml_chronic,Chronic myeloid leukemia,CML,4,慢性骨髓性白血病
+943,B.01.32.05,neo_leukemia_other,Other leukemia,Oth Leukemia,4,其他白血病
+489,B.01.33,neo_other_cancer,Other malignant neoplasms,Other MN,3,其他癌
+489,B.01.33.00,neo_other_cancer,Other malignant neoplasms,Other MN,4,其他癌
+490,B.01.34,neo_other_benign,Other neoplasms,Other Neo,3,其他腫瘤
+490,B.01.34.00,neo_other_benign,Other neoplasms,Other Neo,4,其他腫瘤
+964,B.01.34.01,neo_ben_blood,"Myelodysplastic, myeloproliferative, and other hematopoietic neoplasms",MDS+MPN,4,骨髓生成不良、骨髓增生性及其他造血腫瘤
+965,B.01.34.02,neo_ben_intest,Benign and in situ intestinal neoplasms,Intest NMN,4,良性及原位腸腫瘤
+966,B.01.34.03,neo_ben_utr,Benign and in situ cervical and uterine neoplasms,Cervix NMN,4,良性及原位子宮頸及子宮腫瘤
+967,B.01.34.04,neo_ben_other,Other benign and in situ neoplasms,Oth NMN,4,其他良性及原位腫瘤
+991,B.01.34.04.01,neo_ben_brain,Benign and in situ CNS neoplasms,CNS NMN,4,良性及原位中樞神經系統腫瘤
+491,B.02,cvd,Cardiovascular diseases,CVD,2,心血管疾病
+492,B.02.01,cvd_rhd,Rheumatic heart disease,RHD,3,風濕性心臟病
+492,B.02.01.00,cvd_rhd,Rheumatic heart disease,RHD,4,風濕性心臟病
+493,B.02.02,cvd_ihd,Ischemic heart disease,IHD,3,缺血性心臟病
+493,B.02.02.00,cvd_ihd,Ischemic heart disease,IHD,4,缺血性心臟病
+494,B.02.03,cvd_stroke,Stroke,Stroke,3,中風
+494,B.02.03.00,cvd_stroke,Stroke,Stroke,4,中風
+495,B.02.03.01,cvd_stroke_isch,Ischemic stroke,Isch Stroke,4,缺血性中風
+496,B.02.03.02,cvd_stroke_cerhem,Intracerebral hemorrhage,Intrahem Stroke,4,腦內出血
+497,B.02.03.03,cvd_stroke_subhem,Subarachnoid hemorrhage,Sub Hem,4,蜘蛛網膜下腔出血
+498,B.02.04,cvd_htn,Hypertensive heart disease,HTN HD,3,高血壓性心臟病
+498,B.02.04.00,cvd_htn,Hypertensive heart disease,HTN HD,4,高血壓性心臟病
+504,B.02.05,cvd_valvu,Non-rheumatic valvular heart disease,Valvular,3,非風濕性瓣膜性心臟病
+504,B.02.05.00,cvd_valvu,Non-rheumatic valvular heart disease,Valvular,4,非風濕性瓣膜性心臟病
+968,B.02.05.01,cvd_valvu_aort,Non-rheumatic calcific aortic valve disease,CAVD,4,非風濕性主動脈瓣膜鈣化
+969,B.02.05.02,cvd_valvu_mitral,Non-rheumatic degenerative mitral valve disease,DMVD,4,非風濕性二尖瓣退化
+970,B.02.05.03,cvd_valvu_other,Other non-rheumatic valve diseases,Oth Valvu,4,其他非風濕性瓣膜疾病
+499,B.02.06,cvd_cmp,Cardiomyopathy and myocarditis,CMP,3,心肌病變及心肌炎
+499,B.02.06.00,cvd_cmp,Cardiomyopathy and myocarditis,CMP,4,心肌病變及心肌炎
+942,B.02.06.01,cvd_cmp_myocarditis,Myocarditis,Myocarditis,4,心肌炎
+938,B.02.06.02,cvd_cmp_alcoholic,Alcoholic cardiomyopathy,Alcohol CMP,4,酒精性心肌病變
+944,B.02.06.03,cvd_cmp_other,Other cardiomyopathy,Oth CMP,4,其他心肌病變
+1004,B.02.07,cvd_pah,Primary pulmonary arterial hypertension,PAH,3,原發性肺動脈高血壓
+1004,B.02.07.00,cvd_pah,Primary pulmonary arterial hypertension,PAH,4,原發性肺動脈高血壓
+500,B.02.08,cvd_afib,Atrial fibrillation and flutter,A Fib,3,心房顫動及撲動
+500,B.02.08.00,cvd_afib,Atrial fibrillation and flutter,A Fib,4,心房顫動及撲動
+501,B.02.09,cvd_aortic,Aortic aneurysm,Aort An,3,主動脈瘤
+501,B.02.09.00,cvd_aortic,Aortic aneurysm,Aort An,4,主動脈瘤
+502,B.02.10,cvd_pvd,Peripheral artery disease,PAD,3,周邊動脈疾病
+502,B.02.10.00,cvd_pvd,Peripheral artery disease,PAD,4,周邊動脈疾病
+503,B.02.11,cvd_endo,Endocarditis,Endocar,3,心內膜炎
+503,B.02.11.00,cvd_endo,Endocarditis,Endocar,4,心內膜炎
+507,B.02.12,cvd_other,Other cardiovascular and circulatory diseases,Oth Cardio,3,其他心血管疾病
+507,B.02.12.00,cvd_other,Other cardiovascular and circulatory diseases,Oth Cardio,4,其他心血管疾病
+505,B.02.12.01,cvd_phlebitis,Phlebitis and thrombophlebitis,Phlebitis,4,靜脈炎及血栓靜脈炎
+506,B.02.12.02,cvd_varicose,Varicose veins,Varicose,4,靜脈曲張
+508,B.03,resp,Chronic respiratory diseases,Chr Resp,2,慢性呼吸系統疾病
+509,B.03.01,resp_copd,Chronic obstructive pulmonary disease,COPD,3,慢性阻塞性肺病
+509,B.03.01.00,resp_copd,Chronic obstructive pulmonary disease,COPD,4,慢性阻塞性肺病
+510,B.03.02,resp_pneum,Pneumoconiosis,Pneumocon,3,塵肺症
+510,B.03.02.00,resp_pneum,Pneumoconiosis,Pneumocon,4,塵肺症
+511,B.03.02.01,resp_pneum_silico,Silicosis,Silicosis,4,矽肺症
+512,B.03.02.02,resp_pneum_asbest,Asbestosis,Asbestosis,4,石棉沉著症
+513,B.03.02.03,resp_pneum_coal,Coal workers pneumoconiosis,Coal W,4,煤礦工人塵肺症
+514,B.03.02.04,resp_pneum_other,Other pneumoconiosis,Oth Pneum,4,其他塵肺症
+515,B.03.03,resp_asthma,Asthma,Asthma,3,氣喘
+515,B.03.03.00,resp_asthma,Asthma,Asthma,4,氣喘
+516,B.03.04,resp_interstitial,Interstitial lung disease and pulmonary sarcoidosis,ILD,3,間質性肺疾病及肺類肉瘤病
+516,B.03.04.00,resp_interstitial,Interstitial lung disease and pulmonary sarcoidosis,ILD,4,間質性肺疾病及肺類肉瘤病
+520,B.03.05,resp_other,Other chronic respiratory diseases,Oth Resp,3,其他慢性呼吸系統疾病
+520,B.03.05.00,resp_other,Other chronic respiratory diseases,Oth Resp,4,其他慢性呼吸系統疾病
+517,B.03.05.01,resp_upper,Chronic diseases of upper respiratory system,Resp Upper,4,慢性上呼吸系統疾病
+518,B.03.05.02,resp_allergic,Allergic disorders of upper respiratory system,Resp Allerg,4,上呼吸系統之過敏性疾病
+519,B.03.05.03,resp_apnea,Sleep apnea,Sleep Apnea,4,睡眠呼吸中止症
+526,B.04,digest,Digestive diseases,Digestive,2,消化系統疾病
+521,B.04.01,cirrhosis,Cirrhosis and other chronic liver diseases,Cirrhosis,3,肝硬化及其他慢性肝病
+521,B.04.01.00,cirrhosis,Cirrhosis and other chronic liver diseases,Cirrhosis,4,肝硬化及其他慢性肝病
+522,B.04.01.01,cirrhosis_hepb,Cirrhosis and other chronic liver diseases due to hepatitis B,Cirr HepB,4,B型肝炎所致之肝硬化及其他慢性肝病
+523,B.04.01.02,cirrhosis_hepc,Cirrhosis and other chronic liver diseases due to hepatitis C,Cirr HepC,4,C型肝炎所致之肝硬化及其他慢性肝病
+524,B.04.01.03,cirrhosis_alcohol,Cirrhosis and other chronic liver diseases due to alcohol use,Cirr Alc,4,酒精使用所致之肝硬化及其他慢性肝病
+971,B.04.01.04,cirrhosis_nash,Cirrhosis due to NASH,Cirr Nash,4,非酒精性脂性肝炎所致之肝硬化
+525,B.04.01.05,cirrhosis_other,Cirrhosis and other chronic liver diseases due to other causes,Oth Cirr,4,其他原因所致之肝硬化及其他慢性肝病
+992,B.04.02,digest_upper,Upper digestive system diseases,Upper Digest,3,上消化系統疾病
+992,B.04.02.00,digest_upper,Upper digestive system diseases,Upper Digest,4,上消化系統疾病
+527,B.04.02.01,digest_pud,Peptic ulcer disease,PUD,4,消化性潰瘍疾病
+528,B.04.02.02,digest_gastritis,Gastritis and duodenitis,Gastritis,4,胃炎及十二指腸炎
+536,B.04.02.03,digest_gerd,Gastroesophageal reflux disease,GERD,4,胃食道逆流性疾病
+529,B.04.03,digest_appendicitis,Appendicitis,Appendicit,3,闌尾炎
+529,B.04.03.00,digest_appendicitis,Appendicitis,Appendicit,4,闌尾炎
+530,B.04.04,digest_ileus,Paralytic ileus and intestinal obstruction,Ileus,3,麻痺性腸阻塞及腸道阻塞
+530,B.04.04.00,digest_ileus,Paralytic ileus and intestinal obstruction,Ileus,4,麻痺性腸阻塞及腸道阻塞
+531,B.04.05,digest_hernia,"Inguinal, femoral, and abdominal hernia",Hernia,3,腹股溝、股及腹部疝氣
+531,B.04.05.00,digest_hernia,"Inguinal, femoral, and abdominal hernia",Hernia,4,腹股溝、股及腹部疝氣
+532,B.04.06,digest_ibd,Inflammatory bowel disease,IBD,3,發炎性腸疾病
+532,B.04.06.00,digest_ibd,Inflammatory bowel disease,IBD,4,發炎性腸疾病
+533,B.04.07,digest_vascular,Vascular intestinal disorders,Vasc Intest,3,腸血管性疾患
+533,B.04.07.00,digest_vascular,Vascular intestinal disorders,Vasc Intest,4,腸血管性疾患
+534,B.04.08,digest_bile,Gallbladder and biliary diseases,Gall Bile,3,膽囊及膽道疾病
+534,B.04.08.00,digest_bile,Gallbladder and biliary diseases,Gall Bile,4,膽囊及膽道疾病
+535,B.04.09,digest_pancreatitis,Pancreatitis,Pancreatit,3,胰炎
+535,B.04.09.00,digest_pancreatitis,Pancreatitis,Pancreatit,4,胰炎
+541,B.04.10,digest_other,Other digestive diseases,Oth Digest,3,其他消化系統疾病
+541,B.04.10.00,digest_other,Other digestive diseases,Oth Digest,4,其他消化系統疾病
+537,B.04.10.01,digest_diverticular,Diverticular disease of intestines,Diverticular,4,腸憩室性疾病
+538,B.04.10.02,digest_constipation,Constipation,Constipat,4,便秘
+539,B.04.10.03,digest_hemorrhoids,"Hemorrhoids, anal fissure, anal abscess, and fistula",Hemorrhoids,4,痔瘡、肛裂、肛門膿瘍及肛門?管
+540,B.04.10.04,digest_celiac,Celiac disease,Celiac,4,乳糜瀉
+993,B.04.10.05,digest_esophag,Esophageal diseases,Esophageal,4,食道疾病
+542,B.05,_neuro,Neurological disorders,Neuro,2,神經系統疾病
+543,B.05.01,neuro_dementia,Alzheimer's disease and other dementias,Alzheimer's,3,阿茲海默症及其他失智症
+543,B.05.01.00,neuro_dementia,Alzheimer's disease and other dementias,Alzheimer's,4,阿茲海默症及其他失智症
+544,B.05.02,neuro_parkinsons,Parkinson's disease,Parkinson's,3,帕金森氏症
+544,B.05.02.00,neuro_parkinsons,Parkinson's disease,Parkinson's,4,帕金森氏症
+545,B.05.03,neuro_epilepsy,Idiopathic epilepsy,Idiopathic epilepsy,3,特發性癲癇
+545,B.05.03.00,neuro_epilepsy,Idiopathic epilepsy,Idiopathic epilepsy,4,特發性癲癇
+546,B.05.04,neuro_ms,Multiple sclerosis,MS,3,多發性硬化症
+546,B.05.04.00,neuro_ms,Multiple sclerosis,MS,4,多發性硬化症
+554,B.05.05,neuro_neurone,Motor neuron disease,ALS,3,運動神經元疾病
+554,B.05.05.00,neuro_neurone,Motor neuron disease,ALS,4,運動神經元疾病
+972,B.05.06,neuro_headach,Headache disorders,Headaches,3,頭痛
+972,B.05.06.00,neuro_headach,Headache disorders,Headaches,4,頭痛
+547,B.05.06.01,neuro_migraine,Migraine,Migraine,4,偏頭痛
+548,B.05.06.02,neuro_tensache,Tension-type headache,Tens Head,4,緊張型頭痛
+557,B.05.07,neuro_other,Other neurological disorders,Oth Neuro,3,其他神經疾患
+557,B.05.07.00,neuro_other,Other neurological disorders,Oth Neuro,4,其他神經疾患
+550,B.05.07.01,neuro_carpal,Carpal and tarsal tunnel syndrome,Carpal,4,腕隧道症候群及跗隧道症候群
+551,B.05.07.02,neuro_pathy,Neuropathies in head and face,Neuro Head,4,頭部及臉部神經病變
+552,B.05.07.03,neuro_pathy_bells,Bell's palsy,Bells,4,Bell氏麻痺
+553,B.05.07.04,neuro_pathy_nerve,Disorders of trigeminal and other cranial nerve,Neuro Nerve,4,三叉神經及其他腦神經疾患
+555,B.05.07.05,neuro_fibromyalgia,Fibromyalgia and other neuropathies,Fibromyalgia,4,纖維肌痛症及其他神經病變
+556,B.05.07.06,neuro_dystrophy,Muscular dystrophy,Dystrophy,4,肌肉失養症
+558,B.06,_mental,Mental disorders,Mental,2,精神疾患
+559,B.06.01,mental_schizo,Schizophrenia,Schiz,3,思覺失調症
+559,B.06.01.00,mental_schizo,Schizophrenia,Schiz,4,思覺失調症
+567,B.06.02,mental_unipolar,Depressive disorders,Depression,3,憂鬱症
+567,B.06.02.00,mental_unipolar,Depressive disorders,Depression,4,憂鬱症
+568,B.06.02.01,mental_unipolar_mdd,Major depressive disorder,MDD,4,重鬱症
+569,B.06.02.02,mental_unipolar_dys,Dysthymia,Dysthymia,4,輕鬱情感障礙症
+570,B.06.03,mental_bipolar,Bipolar disorder,Bipolar,3,雙相型情感疾患
+570,B.06.03.00,mental_bipolar,Bipolar disorder,Bipolar,4,雙相型情感疾患
+571,B.06.04,mental_anxiety,Anxiety disorders,Anxiety,3,焦慮症
+571,B.06.04.00,mental_anxiety,Anxiety disorders,Anxiety,4,焦慮症
+572,B.06.05,mental_eating,Eating disorders,Eating,3,飲食疾患
+572,B.06.05.00,mental_eating,Eating disorders,Eating,4,飲食疾患
+573,B.06.05.01,mental_eating_anorexia,Anorexia nervosa,Anorexia,4,神經性厭食症
+574,B.06.05.02,mental_eating_bulimia,Bulimia nervosa,Bulimia,4,神經性暴食症
+575,B.06.06,mental_pdd,Autism spectrum disorders,ASD,3,自閉症
+575,B.06.06.00,mental_pdd,Autism spectrum disorders,ASD,4,自閉症
+578,B.06.07,mental_adhd,Attention-deficit/hyperactivity disorder,ADHD,3,注意力不足過動症
+578,B.06.07.00,mental_adhd,Attention-deficit/hyperactivity disorder,ADHD,4,注意力不足過動症
+579,B.06.08,mental_conduct,Conduct disorder,Conduct,3,行為規範疾患
+579,B.06.08.00,mental_conduct,Conduct disorder,Conduct,4,行為規範疾患
+580,B.06.08.01,mental_conduct_antisocial,Anti-social personality disorder,Antisocial,4,反社會型人格障礙
+581,B.06.08.02,mental_conduct_borderline,Borderline personality disorder,Borderline,4,邊緣型人格障礙
+582,B.06.09,mental_id,Idiopathic developmental intellectual disability,ID,3,特發性智能發展障礙
+582,B.06.09.00,mental_id,Idiopathic developmental intellectual disability,ID,4,特發性智能發展障礙
+585,B.06.10,mental_other,Other mental disorders,Oth Ment,3,其他精神疾患
+585,B.06.10.00,mental_other,Other mental disorders,Oth Ment,4,其他精神疾患
+583,B.06.10.01,mental_somatoform,Somatoform disorders,Somatoform,4,擬身體化疾患
+584,B.06.10.02,mental_insomnia,Insomnia and other sleep disorders,Insomnia,4,失眠症及其他睡眠疾患
+973,B.07,_subs,Substance use disorders,Subs Use,2,物質使用疾患
+560,B.07.01,mental_alcohol,Alcohol use disorders,Alcohol,3,酒精使用疾患
+560,B.07.01.00,mental_alcohol,Alcohol use disorders,Alcohol,4,酒精使用疾患
+561,B.07.02,mental_drug,Drug use disorders,Drugs,3,藥物使用疾患
+561,B.07.02.00,mental_drug,Drug use disorders,Drugs,4,藥物使用疾患
+562,B.07.02.01,mental_drug_opioids,Opioid use disorders,Opioids,4,鴉片使用疾患
+563,B.07.02.02,mental_drug_cocaine,Cocaine use disorders,Cocaine,4,古柯鹼使用疾患
+564,B.07.02.03,mental_drug_amphet,Amphetamine use disorders,Amphet,4,安非他命使用疾患
+565,B.07.02.04,mental_drug_cannabis,Cannabis use disorders,Cannabis,4,大麻使用疾患
+566,B.07.02.05,mental_drug_other,Other drug use disorders,Oth Drug,4,其他藥物使用疾患
+974,B.08,diab_ckd,Diabetes and kidney diseases,Diabetes+CKD,2,糖尿病及腎臟病
+587,B.08.01,diabetes,Diabetes mellitus,Diabetes,3,糖尿病
+587,B.08.01.00,diabetes,Diabetes mellitus,Diabetes,4,糖尿病
+975,B.08.01.01,diabetes_typ1,Diabetes mellitus type 1,Diabetes 1,4,第一型糖尿病
+976,B.08.01.02,diabetes_typ2,Diabetes mellitus type 2,Diabetes 2,4,第二型糖尿病
+589,B.08.02,ckd,Chronic kidney disease,CKD,3,慢性腎臟病
+589,B.08.02.00,ckd,Chronic kidney disease,CKD,4,慢性腎臟病
+997,B.08.02.01,ckd_diabetes_typ1,Chronic kidney disease due to diabetes mellitus type 1,CKD Diabetes1,4,第一型糖尿病所致之慢性腎臟病
+998,B.08.02.02,ckd_diabetes_typ2,Chronic kidney disease due to diabetes mellitus type 2,CKD Diabetes2,4,第二型糖尿病所致之慢性腎臟病
+591,B.08.02.03,ckd_htn,Chronic kidney disease due to hypertension,HTN CKD,4,高血壓所致之腎臟病
+592,B.08.02.04,ckd_glomerulo,Chronic kidney disease due to glomerulonephritis,GN CKD,4,腎絲球腎炎所致之慢性腎臟病
+593,B.08.02.05,ckd_other,Chronic kidney disease due to other and unspecified causes,Oth CKD,4,其他及非特定原因所致之慢性腎臟病
+588,B.08.03,glomerulo,Acute glomerulonephritis,AGN,3,急性腎絲球腎炎
+588,B.08.03.00,glomerulo,Acute glomerulonephritis,AGN,4,急性腎絲球腎炎
+653,B.09,skin,Skin and subcutaneous diseases,Skin,2,皮膚及皮下組織疾病
+654,B.09.01,skin_eczema,Dermatitis,Dermatitis,3,皮膚炎
+654,B.09.01.00,skin_eczema,Dermatitis,Dermatitis,4,皮膚炎
+977,B.09.01.01,skin_eczema_atopy,Atopic dermatitis,Atopic Derm,4,異位性皮膚炎
+978,B.09.01.02,skin_eczema_contact,Contact dermatitis,Contact Derm,4,接觸性皮膚炎
+979,B.09.01.03,skin_eczema_sebor,Seborrhoeic dermatitis,Seborr Derm,4,脂漏性皮膚炎
+655,B.09.02,skin_psoriasis,Psoriasis,Psoriasis,3,乾癬
+655,B.09.02.00,skin_psoriasis,Psoriasis,Psoriasis,4,乾癬
+980,B.09.03,skin_infect,Bacterial skin diseases,Bac Skin,3,細菌性皮膚病
+980,B.09.03.00,skin_infect,Bacterial skin diseases,Bac Skin,4,細菌性皮膚病
+656,B.09.03.01,skin_cellulitis,Cellulitis,Cellulitis,4,蜂窩組織炎
+657,B.09.03.02,skin_bacterial,Pyoderma,Pyoderma,4,膿皮症
+658,B.09.04,skin_scabies,Scabies,Scabies,3,疥瘡
+658,B.09.04.00,skin_scabies,Scabies,Scabies,4,疥瘡
+659,B.09.05,skin_fungal,Fungal skin diseases,Skin Fung,3,真菌性皮膚病
+659,B.09.05.00,skin_fungal,Fungal skin diseases,Skin Fung,4,真菌性皮膚病
+660,B.09.06,skin_viral,Viral skin diseases,Skin Viral,3,病毒性皮膚病
+660,B.09.06.00,skin_viral,Viral skin diseases,Skin Viral,4,病毒性皮膚病
+661,B.09.07,skin_acne,Acne vulgaris,Acne,3,尋常性痤瘡
+661,B.09.07.00,skin_acne,Acne vulgaris,Acne,4,尋常性痤瘡
+662,B.09.08,skin_alopecia,Alopecia areata,Alopecia,3,圓禿
+662,B.09.08.00,skin_alopecia,Alopecia areata,Alopecia,4,圓禿
+663,B.09.09,skin_pruritus,Pruritus,Pruritus,3,皮癢症
+663,B.09.09.00,skin_pruritus,Pruritus,Pruritus,4,皮癢症
+664,B.09.10,skin_urticaria,Urticaria,Urticaria,3,蕁麻疹
+664,B.09.10.00,skin_urticaria,Urticaria,Urticaria,4,蕁麻疹
+665,B.09.11,skin_decubitus,Decubitus ulcer,Decubitus,3,壓迫性潰瘍
+665,B.09.11.00,skin_decubitus,Decubitus ulcer,Decubitus,4,壓迫性潰瘍
+668,B.09.12,skin_other,Other skin and subcutaneous diseases,Oth Skin,3,其他皮膚及皮下組織疾病
+668,B.09.12.00,skin_other,Other skin and subcutaneous diseases,Oth Skin,4,其他皮膚及皮下組織疾病
+666,B.09.12.01,skin_keratosis,Actinic and seborrhoeic keratosis,Keratosis,4,光化性角化症及脂漏性角化症
+667,B.09.12.02,skin_vitiligo,Vitiligo and other pigmentation disorders,Vitiligo,4,白斑症及其他色素沉著疾患
+669,B.10,_sense,Sense organ diseases,Sense,2,感官疾病
+981,B.10.01,sense_visionlos,Blindness and vision impairment,Blindness,3,失明及視覺損傷
+981,B.10.01.00,sense_visionlos,Blindness and vision impairment,Blindness,4,失明及視覺損傷
+670,B.10.01.01,sense_glaucoma,Glaucoma,Glaucoma,4,青光眼
+671,B.10.01.02,sense_cataract,Cataract,Cataract,4,白內障
+672,B.10.01.03,sense_macular,Age-related macular degeneration,Macular,4,老年性黃斑部病變
+999,B.10.01.04,sense_refrac_dis,Refraction disorders,Refraction,4,屈光疾患
+1000,B.10.01.05,sense_presbyopia,Near vision loss,Near vision,4,近視
+675,B.10.01.06,sense_vision,Other vision loss,Oth Vision,4,其他視力喪失
+674,B.10.02,sense_hearing,Age-related and other hearing loss,Hearing,3,老年性聽覺喪失及其他聽覺喪失
+674,B.10.02.00,sense_hearing,Age-related and other hearing loss,Hearing,4,老年性聽覺喪失及其他聽覺喪失
+679,B.10.03,sense_other,Other sense organ diseases,Oth Sense,3,其他感官疾病
+679,B.10.03.00,sense_other,Other sense organ diseases,Oth Sense,4,其他感官疾病
+676,B.10.03.01,sense_conjunct,Conjunctivitis and other eye infections,Conjunct,4,結膜炎及其他眼睛感染
+677,B.10.03.02,sense_externear,Otitis external and other external ear disorders,Ext Ear,4,外耳炎及其他外耳疾病
+678,B.10.03.03,sense_vertigo,"M?ni?res, labyrinthitis, and vertiginous syndromes",Vertigo,4,美尼爾氏病、迷路炎及眩暈症候群
+626,B.11,msk,Musculoskeletal disorders,MSK,2,肌肉骨骼疾病
+627,B.11.01,msk_rheumarthritis,Rheumatoid arthritis,Rheu Arth,3,類風濕性關節炎
+627,B.11.01.00,msk_rheumarthritis,Rheumatoid arthritis,Rheu Arth,4,類風濕性關節炎
+628,B.11.02,msk_osteoarthritis,Osteoarthritis,Osteoarth,3,骨關節炎
+628,B.11.02.00,msk_osteoarthritis,Osteoarthritis,Osteoarth,4,骨關節炎
+1014,B.11.02.01,msk_osteo_hip,Osteoarthiritis hip,Osteoarth Hip,4,髖骨關節炎
+1015,B.11.02.02,msk_osteo_knee,Osteoarthiritis knee,Osteoarth Knee,4,膝骨關節炎
+1016,B.11.02.03,msk_osteo_hand_foot,Osteoarthritis hand and foot,Osteoarth Hand+Foot,4,手及足骨關節炎
+1017,B.11.02.04,msk_osteo_other,Osteoarthritis other,Osteoarth Oth,4,其他骨關節炎
+630,B.11.03,msk_pain_lowback,Low back pain,Back Pain,3,下背痛
+630,B.11.03.00,msk_pain_lowback,Low back pain,Back Pain,4,下背痛
+631,B.11.04,msk_pain_neck,Neck pain,Neck Pain,3,頸部痛
+631,B.11.04.00,msk_pain_neck,Neck pain,Neck Pain,4,頸部痛
+632,B.11.05,msk_gout,Gout,Gout,3,痛風
+632,B.11.05.00,msk_gout,Gout,Gout,4,痛風
+639,B.11.06,msk_other,Other musculoskeletal disorders,Oth MSK,3,其他肌肉骨骼疾患
+639,B.11.06.00,msk_other,Other musculoskeletal disorders,Oth MSK,4,其他肌肉骨骼疾患
+633,B.11.06.01,msk_oestoporosis,Osteoporosis and related pathological fracture,Osteoporosis,4,骨質疏鬆症及相關病理性骨折
+634,B.11.06.02,msk_pyoarthritis,Pyogenic and reactive arthritis,Pyoarthritis,4,化膿性及反應性關節炎
+635,B.11.06.03,msk_lupus,Systemic and discoid lupus erythematous,Lupus,4,全身性及圓盤性紅斑性狼瘡
+636,B.11.06.04,msk_shoulderlesion,Shoulder lesions,Should Les,4,肩病灶
+637,B.11.07.05,msk_osteomyelitis,Osteomyelitis non-traumatic,Osteomyel NT,4,非創傷性骨髓炎
+638,B.11.07.06,msk_myositis,Other myositis,Other Myo,4,其他肌炎
+640,B.12,_otherncd,Other non-communicable diseases,Oth NCD,2,其他非傳染性疾病
+641,B.12.01,cong,Congenital birth defects,Congenital,3,先天性出生缺陷
+641,B.12.01.00,cong,Congenital birth defects,Congenital,4,先天性出生缺陷
+642,B.12.01.01,cong_neural,Neural tube defects,Neur Tube,4,神經管缺陷
+643,B.12.01.02,cong_heart,Congenital heart anomalies,Cong Heart,4,先天性心臟畸形
+644,B.12.01.03,cong_cleft,Orofacial clefts,Cleft,4,口腔及顏面裂
+645,B.12.01.04,cong_downs,Down syndrome,Down,4,唐氏症
+646,B.12.01.05,cong_turner,Turner syndrome,Turner,4,透納氏症
+647,B.12.01.06,cong_klinefelter,Klinefelter syndrome,Klinefelter,4,柯林菲特氏症
+648,B.12.01.07,cong_chromo,Other chromosomal abnormalities,Chrom Unb,4,其他染色體異常
+649,B.12.01.08,cong_msk,Congenital musculoskeletal and limb anomalies,Cong MSK,4,先天性骨骼肌肉及肢體畸形
+650,B.12.01.09,cong_urogenital,Urogenital congenital anomalies,Cong Urogen,4,先天性泌尿生殖系統異常
+651,B.12.01.10,cong_digestive,Digestive congenital anomalies,Digest Anom,4,先天性消化系統異常
+652,B.12.01.11,cong_other,Other congenital birth defects,Oth Cong,4,其他先天性出生缺陷
+594,B.12.02,urinary,Urinary diseases and male infertility,Urinary,3,泌尿疾病及男性不孕症
+594,B.12.02.00,urinary,Urinary diseases and male infertility,Urinary,4,泌尿疾病及男性不孕症
+595,B.12.02.01,urinary_nephritis,Urinary tract infections,UTI,4,泌尿道感染
+596,B.12.02.02,urinary_urolithiasis,Urolithiasis,Urolith,4,尿路結石
+597,B.12.02.03,urinary_bph,Benign prostatic hyperplasia,BPH,4,良性攝護腺肥大症
+598,B.12.02.04,urinary_maleinfert,Male infertility,Infert M,4,男性不孕症
+602,B.12.02.05,urinary_other,Other urinary diseases,Oth Urin,4,其他泌尿疾病
+599,B.12.02.05.01,urinary_prostatitis,Prostatitis and epididymitis,Prostatitis,5,攝護腺炎及副睪丸炎
+600,B.12.02.05.02,urinary_stricture,"Urethral stricture, phimosis, and paraphimosis",Uret Strict,5,尿道縮窄、包莖及嵌頓包莖
+601,B.12.02.05.03,urinary_incontinence,Urinary incontinence,Urin Incont,5,尿失禁
+603,B.12.03,gyne,Gynecological diseases,Gyne,3,婦科疾病
+603,B.12.03.00,gyne,Gynecological diseases,Gyne,4,婦科疾病
+604,B.12.03.01,gyne_fibroids,Uterine fibroids,Fibroids,4,子宮肌瘤
+605,B.12.03.02,gyne_polycystic,Polycystic ovarian syndrome,PCOS,4,多囊性卵巢症候群
+606,B.12.03.03,gyne_femaleinfert,Female infertility,Infert F,4,女性不孕症
+607,B.12.03.04,gyne_endometr,Endometriosis,Endomet,4,子宮內膜?位症
+608,B.12.03.05,gyne_prolapse,Genital prolapse,Prolapse,4,生殖器脫垂
+609,B.12.03.06,gyne_pms,Premenstrual syndrome,PMS,4,月經前症候群
+612,B.12.03.07,gyne_other,Other gynecological diseases,Oth Gyne,4,其他婦科疾病
+610,B.12.03.07.01,gyne_inflamm,"Inflammatory diseases of cervix, vagina, and vulva",Gyne Inflamm,5,子宮頸、陰道及外陰發炎性疾病
+611,B.12.03.07.02,gyne_ovarcysts,Ovarian cysts and other ovarian disorders,Ovar Cysts,5,卵巢囊腫及其他卵巢疾患
+742,B.12.03.07.03,gyne_candidiasis,Genital candidiasis,Candidiasis,5,生殖器念珠菌症
+613,B.12.04,hemog,Hemoglobinopathies and hemolytic anemias,Hemog,3,血紅素病變及溶血性貧血
+613,B.12.04.00,hemog,Hemoglobinopathies and hemolytic anemias,Hemog,4,血紅素病變及溶血性貧血
+614,B.12.04.01,hemog_thalass,Thalassemias,Thalass,4,海洋性貧血
+837,B.12.04.02,hemog_thalasstrait,Thalassemias trait,Thalass Trait,4,海洋性貧血帶因者
+615,B.12.04.03,hemog_sickle,Sickle cell disorders,Sickle,4,鐮狀細胞疾患
+838,B.12.04.04,hemog_sickletrait,Sickle cell trait,Sickle Trait,4,鐮狀細胞帶因者
+616,B.12.04.05,hemog_g6pd,G6PD deficiency,G6PD,4,葡萄醣-6-磷酸鹽脫氫?缺乏症
+839,B.12.04.06,hemog_g6pdtrait,G6PD trait,G6PD Trait,4,葡萄醣-6-磷酸鹽脫氫?帶因者
+618,B.12.04.07,hemog_other,Other hemoglobinopathies and hemolytic anemias,Oth Hem,4,其他血紅素病變及溶血性貧血
+617,B.12.04.07.01,hemog_aplastic,Aplastic anemias,Aplastic,5,再生不良性貧血
+619,B.12.05,endo,"Endocrine, metabolic, blood, and immune disorders",Endocrine,3,內分泌、代謝、血液及免疫疾病
+619,B.12.05.00,endo,"Endocrine, metabolic, blood, and immune disorders",Endocrine,4,內分泌、代謝、血液及免疫疾病
+620,B.12.05.01,endo_hypothyroid,Hypothyroidism,Hypothyroid,4,甲狀腺低能症
+621,B.12.05.02,endo_hyperthyroid,Hyperthyroidism,Hyperthyroid,4,甲狀腺高能症
+622,B.12.05.03,endo_obesity,Obesity,Obesity,4,肥胖症
+623,B.12.05.04,endo_lipoprotein,Lipoprotein metabolism and other lipidaemias disorders,Lipoprotein,4,脂蛋白代謝疾患及其他脂血症
+624,B.12.05.05,endo_procedural,Post procedural or drug treatment disorders,Endo Proced,4,手術後或藥物治療疾患
+859,B.12.05.06,endo_cystic,Cystic fibrosis,Cyst Fib,4,囊腫性纖維化症
+625,B.12.05.07,endo_other,"Other endocrine, metabolic, blood, and immune disorders",Other Endo,4,其他內分泌、代謝、血液及免疫疾病
+680,B.12.06,_oral,Oral disorders,Oral,3,口腔疾患
+680,B.12.06.00,_oral,Oral disorders,Oral,4,口腔疾患
+681,B.12.06.01,oral_decidcaries,Caries of deciduous teeth,Dec Caries,4,乳牙齲齒
+682,B.12.06.02,oral_permcaries,Caries of permanent teeth,Per Caries,4,恆牙齲齒
+683,B.12.06.03,oral_perio,Periodontal diseases,Period,4,牙周病
+684,B.12.06.04,oral_edent,Edentulism and severe tooth loss,Edentul,4,無牙及嚴重牙齒脫落
+685,B.12.06.05,oral_other,Other oral disorders,Other Oral,4,其他口腔疾患
+686,B.12.07,sids,Sudden infant death syndrome,SIDS,3,嬰兒猝死症候群
+686,B.12.07.00,sids,Sudden infant death syndrome,SIDS,4,嬰兒猝死症候群
+687,C,_inj,Injuries,Injuries,1,事故傷害
+688,C.01,inj_trans,Transport injuries,Trans Inj,2,交通事故傷害
+689,C.01.01,inj_trans_road,Road injuries,Road Inj,3,道路事故傷害
+689,C.01.01.00,inj_trans_road,Road injuries,Road Inj,4,道路事故傷害
+690,C.01.01.01,inj_trans_road_pedest,Pedestrian road injuries,Pedest,4,行人道路事故傷害
+691,C.01.01.02,inj_trans_road_pedal,Cyclist road injuries,Cyclist,4,腳踏車道路事故傷害
+692,C.01.01.03,inj_trans_road_2wheel,Motorcyclist road injuries,Mot Cyc,4,二輪機動車道路事故傷害
+693,C.01.01.04,inj_trans_road_4wheel,Motor vehicle road injuries,Mot Veh,4,四輪機動車道路事故傷害
+694,C.01.01.05,inj_trans_road_other,Other road injuries,Oth Road,4,其他道路事故傷害
+695,C.01.02,inj_trans_other,Other transport injuries,Oth Trans,3,其他交通事故傷害
+695,C.01.02.00,inj_trans_other,Other transport injuries,Oth Trans,4,其他交通事故傷害
+696,C.02,_unintent,Unintentional injuries,Unint Inj,2,意外事故傷害
+697,C.02.01,inj_falls,Falls,Falls,3,意外墜落
+697,C.02.01.00,inj_falls,Falls,Falls,4,意外墜落
+698,C.02.02,inj_drowning,Drowning,Drown,3,溺水
+698,C.02.02.00,inj_drowning,Drowning,Drown,4,溺水
+699,C.02.03,inj_fires,"Fire, heat, and hot substances",Fire,3,火、熱、高熱物所致之事故傷害
+699,C.02.03.00,inj_fires,"Fire, heat, and hot substances",Fire,4,火、熱、高熱物所致之事故傷害
+700,C.02.04,inj_poisoning,Poisonings,Poison,3,中毒
+700,C.02.04.00,inj_poisoning,Poisonings,Poison,4,中毒
+701,C.02.04.01,inj_poisoning_gas,Poisoning by carbon monoxide,Inj Pois CO,4,一氧化碳中毒
+703,C.02.04.02,inj_poisoning_other,Poisoning by other means,Inj Pois Oth,4,經其他方式中毒
+702,C.02.04.02.01,inj_poisoning_pesti,Poisoning by pesticides,Inj Pois Pesti,5,殺蟲劑中毒
+704,C.02.05,inj_mech,Exposure to mechanical forces,Mech,3,暴露於機械力之事故傷害
+704,C.02.05.00,inj_mech,Exposure to mechanical forces,Mech,4,暴露於機械力之事故傷害
+705,C.02.05.01,inj_mech_gun,Unintentional firearm injuries,Mech Gun,4,意外槍炮傷害
+707,C.02.05.02,inj_mech_other,Other exposure to mechanical forces,Oth Mech,4,其他暴露於機械力之事故傷害
+708,C.02.06,inj_medical,Adverse effects of medical treatment,Med Treat,3,藥物不良反應
+708,C.02.06.00,inj_medical,Adverse effects of medical treatment,Med Treat,4,藥物不良反應
+709,C.02.07,inj_animal,Animal contact,Animal,3,動物接觸
+709,C.02.07.00,inj_animal,Animal contact,Animal,4,動物接觸
+710,C.02.07.01,inj_animal_venom,Venomous animal contact,Venom,4,接觸有毒的動物
+711,C.02.07.02,inj_animal_nonven,Non-venomous animal contact,Non Ven,4,接觸非有毒的動物
+712,C.02.08,inj_foreign,Foreign body,F Body,3,異物
+712,C.02.08.00,inj_foreign,Foreign body,F Body,4,異物
+713,C.02.08.01,inj_foreign_aspiration,Pulmonary aspiration and foreign body in airway,F Body Asp,4,肺部及呼吸道異物吸入
+714,C.02.08.02,inj_foreign_eye,Foreign body in eyes,F Body Eye,4,眼睛異物
+715,C.02.08.03,inj_foreign_other,Foreign body in other body part,Oth F Body,4,其他身體部位之異物
+842,C.02.09,inj_non_disaster,Environmental heat and cold exposure,Heat + cold,3,暴露於環境中的熱或冷之事故傷害
+842,C.02.09.00,inj_non_disaster,Environmental heat and cold exposure,Heat + cold,4,暴露於環境中的熱或冷之事故傷害
+729,C.02.10,inj_disaster,Exposure to forces of nature,Disaster,3,暴露於自然力下之事故傷害
+729,C.02.10.00,inj_disaster,Exposure to forces of nature,Disaster,4,暴露於自然力下之事故傷害
+984,C.02.10.01,inj_disaster_light,Victim of lightning,Lightning,4,閃電
+985,C.02.10.02,inj_disaster_earth,Earthquake,Earthquake,4,地震
+986,C.02.10.03,inj_disaster_volcan,Volcanic eruption,Vol Erupt,4,火山爆發
+987,C.02.10.04,inj_disaster_avalanch,"Avalanche, landslide and other earth movements",Avalanche,4,雪崩、山崩及其他地面變動
+988,C.02.10.05,inj_disaster_storm,Cataclysmic storm,Storm,4,暴風雨
+989,C.02.10.06,inj_disaster_flood,Flood,Flood,4,洪水
+990,C.02.10.07,inj_disaster_other,Other forms of forces of nature,Oth Nature,4,暴露於其他自然力下之事故傷害
+716,C.02.11,inj_othunintent,Other unintentional injuries,Oth Unint,3,其他意外事故傷害
+716,C.02.11.00,inj_othunintent,Other unintentional injuries,Oth Unint,4,其他意外事故傷害
+940,C.02.11.01,inj_electrocution,Electrocution,Elect,4,電擊、觸電
+717,C.03,_intent,Self-harm and interpersonal violence,Self-harm & IPV,2,自殺及人際暴力
+718,C.03.01,inj_suicide,Self-harm,Self Harm,3,自殺
+718,C.03.01.00,inj_suicide,Self-harm,Self Harm,4,自殺
+721,C.03.01.01,inj_suicide_firearm,Self-harm by firearm,Self Fire,4,利用槍炮自殺
+723,C.03.01.02,inj_suicide_other,Self-harm by other specified means,Self Other,4,利用其他特定方式自殺
+719,C.03.01.02.01,inj_suicide_hang,"Self-harm by hanging, strangulation, and suffocation",Self Hang,5,?用懸吊、絞?及閉息自殺
+720,C.03.01.02.02,inj_suicide_fire,"Self-harm by fire, heat, and hot substances",Self Fire,5,利用火、熱、高熱物自殺
+722,C.03.01.02.03,inj_suicide_pesti,Self-harm by poisoning pesticides,Self Pest,5,利用殺蟲劑自殺
+724,C.03.02,inj_homicide,Interpersonal violence,Violence,3,人際暴力
+724,C.03.02.00,inj_homicide,Interpersonal violence,Violence,4,人際暴力
+725,C.03.02.01,inj_homicide_gun,Physical violence by firearm,Viol Gun,4,利用槍炮之身體暴力
+726,C.03.02.02,inj_homicide_knife,Physical violence by sharp object,Viol Knife,4,利用銳利器物之身體暴力
+941,C.03.02.03,inj_homicide_sexual,Sexual violence,Sex Viol,4,性暴力
+727,C.03.02.04,inj_homicide_other,Physical violence by other means,Oth Viol,4,其他方式的身體暴力
+945,C.03.03,inj_war_warterror,Conflict and terrorism,Conflict Terror,3,衝突及恐怖主義
+945,C.03.03.00,inj_war_warterror,Conflict and terrorism,Conflict Terror,4,衝突及恐怖主義
+851,C.03.03.01,inj_war_terrorism,Terrorism,Terrorism,4,恐怖主義
+855,C.03.03.02,inj_war_war,Military operations,Military Op,4,軍事行動
+854,C.03.04,inj_war_execution,Executions and police conflict,Exec & Police,3,行刑及警察衝突
+854,C.03.04.00,inj_war_execution,Executions and police conflict,Exec & Police,4,行刑及警察衝突
+740,E,_none,None,None,1,
+743,E,_gc,Garbage Code,Garbage,1,
+744,E,_sb,Still Born,Still Born,1,
+918,E,Ncc_code,Ncc_code,NCC code,1,
+919,E,cc_code,CC code,CC code,1,
+920,E,sub_total,Subtotal,Subtotal,1,
+994,N_unsp.,N_unsp,"N-code, (unspecified site in N code)",N_unsp,1,
+868,N1.,N1,"Amputation of lower limbs, bilateral",N1,1,兩側下肢截肢
+869,N10.,N10,Lower airway burns,N10,1,下呼吸道燒傷
+870,N11.,N11,Dislocation of hip,N11,1,髖關節脫臼
+871,N12.,N12,Dislocation of knee,N12,1,膝關節脫臼
+872,N13.,N13,Dislocation of shoulder,N13,1,肩關節脫臼
+873,N14.,N14,"Muscle and tendon injuries, including sprains and strains lesser dislocations",N14,1,肌肉及肌腱傷害，包括扭傷及拉傷較輕微的脫臼
+874,N15.,N15,"Fracture of clavicle, scapula, or humerus",N15,1,鎖骨、肩胛骨或肱骨骨折
+875,N16.,N16,Fracture of face bones,N16,1,顏面骨骨折
+876,N17.,N17,Fracture of foot bones except ankle,N17,1,足骨折，踝除外
+877,N18.,N18,Fracture of hand (wrist and other distal part of hand),N18,1,手骨折(手腕及其他手部遠端部位)
+878,N19.,N19,Fracture of hip,N19,1,髖關節骨折
+879,N2.,N2,"Amputation of upper limbs, bilateral",N2,1,兩側上肢截肢
+880,N20.,N20,"Fracture of patella, tibia or fibula, or ankle",N20,1,髕骨、脛骨、腓骨或踝骨折
+881,N21.,N21,Fracture of pelvis,N21,1,骨盆骨折
+882,N22.,N22,Fracture of radius and/or ulna,N22,1,橈骨或尺骨骨折
+883,N23.,N23,Fracture of skull,N23,1,顱骨骨折
+884,N24.,N24,Fracture of sternum and/or fracture of one or more ribs,N24,1,胸骨及/或肋骨骨折
+885,N25.,N25,Fracture of vertebral column,N25,1,脊柱骨折
+886,N26.,N26,"Fracture of femur, other than femoral neck",N26,1,股骨骨折，股骨頸除外
+887,N27.,N27,Minor TBI,N27,1,輕度創傷性腦損傷
+888,N28.,N28,Moderate TBI,N28,1,中度創傷性腦損傷
+889,N29.,N29,Severe TBI,N29,1,重度創傷性腦損傷
+890,N3.,N3,Amputation of fingers (excluding thumb),N3,1,手指截肢，拇指除外
+891,N30.,N30,Foreign body in ear,N30,1,耳內異物
+892,N31.,N31,Foreign body in respiratory system,N31,1,呼吸道內異物
+893,N32.,N32,Foreign body in GI and urogenital system,N32,1,消化道及泌尿生殖系統異物
+894,N33.,N33,Spinal cord lesion at neck level,N33,1,頸部區位脊髓病灶
+895,N34.,N34,Spinal cord lesion below neck level,N34,1,頸部以下脊髓病灶
+896,N35.,N35,Drowning and nonfatal submersion,N35,1,淹死及非致命性?水
+897,N36.,N36,Asphyxiation,N36,1,窒息
+898,N37.,N37,Crush injury,N37,1,壓砸傷害
+899,N38.,N38,Nerve injury,N38,1,神經損傷
+900,N39.,N39,Injury to eyes,N39,1,眼睛傷害
+901,N4.,N4,"Amputation of lower limb, unilateral",N4,1,單側下肢截肢
+902,N40.,N40,Open wound(s),N40,1,開放性傷口
+903,N41.,N41,Poisoning requiring urgent care,N41,1,需緊急照護之中毒
+904,N42.,N42,Severe chest Injury,N42,1,嚴重胸部傷害
+905,N43.,N43,Internal hemorrhage in abdomen and pelvis,N43,1,腹部及骨盆腔內出血
+906,N44.,N44,Contusion in any part of the body,N44,1,身體任何部位之挫傷
+907,N45.,N45,Effect of different environmental factors,N45,1,不同環境因素之效應
+908,N46.,N46,Complications following therapeutic procedures,N46,1,治療程序後之併發症
+909,N47.,N47,Superficial injury of any part of the body,N47,1,身體任何部位隻表淺性傷害
+910,N48.,N48,"Multiple fractures, dislocations, crashes, wounds, pains, and strains",N48,1,多處骨折、脫臼、碰撞、傷口、疼痛及拉傷
+911,N49.,N49,Long term sequelae for TBI,N49,1,創傷性腦損傷之長期後遺症
+912,N5.,N5,"Amputation of upper limb, unilateral",N5,1,單側上肢截肢
+913,N50.,N50,Long term sequelae due to the injuries in skeletal system,N50,1,骨骼系統受傷所致之長期後遺症
+914,N6.,N6,Amputation of thumb,N6,1,拇指截肢
+915,N7.,N7,Amputation of toe/toes,N7,1,腳趾截肢
+916,N8.,N8,"Burns, <20% total burned surface area without lower airway burns",N8,1,燒傷，面積<20%且沒有下呼吸道燒傷
+917,N9.,N9,"Burns, >=20% total burned surface area or >= 10% burned surface area if head/neck or hands/wrist involved w/o lower airway burns",N9,1,燒傷，面積>=20%；或面積>= 10%，包含頭/頸、手/腕且沒有下呼吸道燒傷
+294,Total.,_all,All causes,All causes,0,全疾病
+860,U1.,mor_septicemia,Septicemia,Septicemia,1,敗血症
+861,U2.,mor_chf,Congestive heart failure,Cong HF,1,鬱血性心臟衰竭
+862,U3.,mor_fluid,Fluid and electrolyte disorders,Fluid,1,體液及電解質疾患
+863,U4.,mor_bp,Hypertension,Hypertension,1,高血壓
+864,U5.,mor_pephd,Pulmonary embolism and pulmonary heart diseases,PEPHD,1,肺栓塞及肺源性心臟病
+865,U6.,mor_stroke_un,Unspecified stroke,Un Stroke,1,未特定的中風
+866,U7.,mor_lri_un,Unspecified lower respiratory infection,Un LRI,1,未特定的下呼吸道感染
+867,U8.,mor_pneumonitis,Pneumonitis,Pneumon,1,肺炎
+NA,U9.,mor_anemia,anemia,anemia,1,貧血
