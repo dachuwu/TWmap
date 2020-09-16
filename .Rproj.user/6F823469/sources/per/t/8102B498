@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600241761883.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8102B498",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1600241761883,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3705CC",
+        "caption" : "dict_cause",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dict_cause&cache_key=3705CC",
+        "displayedObservations" : 712,
+        "environment" : "",
+        "object" : "dict_cause",
+        "preview" : 0,
+        "totalObservations" : 712,
+        "variables" : 7
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

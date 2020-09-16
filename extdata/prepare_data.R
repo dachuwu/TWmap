@@ -1,6 +1,6 @@
 
 
-load(file = "prep_data/TWmap_raw_data.RData")
+load(file = "extdata/TWmap_raw_data.RData")
 usethis::use_data(dict_admin, overwrite = T)
 usethis::use_data(bord_nation, overwrite = T)
 usethis::use_data(bord_county, overwrite = T)
@@ -17,7 +17,7 @@ moi2reg <- structure(dict_admin$region[ind], names = dict_admin$city_moi[ind])
 
 
 require(dplyr)
-pop <- readRDS("prep_data/TBDC_population_template.RDS")
+pop <- readRDS("extdata/TBDC_population_template.RDS")
 TWpop_town <- pop %>%
   mutate(
     age = purrr::map(strsplit(AgeGroup, ","), 1) %>% substr(2,3) %>% as.integer(),
@@ -30,12 +30,14 @@ TWpop_town <- pop %>%
   summarise(population = sum(population)) %>%
   ungroup()
 
+any(duplicated(TWpop_town[,c("age","sex","town","year")]))
 
 TWpop_city <- TWpop_town%>%
   mutate(city = substr(town, 1, 5))%>%
   group_by(age, sex, city, year)%>%
   summarise(population = sum(population)) %>%
   ungroup()
+any(duplicated(TWpop_city[,c("age","sex","city","year")]))
 
 TWpop_region <- TWpop_city%>%
   mutate(region = moi2reg[city])%>%
@@ -43,6 +45,7 @@ TWpop_region <- TWpop_city%>%
   summarise(population = sum(population)) %>%
   ungroup()
 
+any(duplicated(TWpop_region[,c("age","sex","region","year")]))
 all(!is.na(TWpop_region$population))
 
 usethis::use_data(TWpop_town, overwrite = T)
@@ -51,12 +54,20 @@ usethis::use_data(TWpop_region, overwrite = T)
 
 
 ### cause outline
-
-dict_cause <- read.csv("prep_data/cause_outline_to_name_chn.csv", stringsAsFactors = F)
+dict_cause <- read.csv("extdata/cause_outline_to_name_chn.csv", stringsAsFactors = F)
 
 colnames(dict_cause)[7] <- "cause_name_ch"
 usethis::use_data(dict_cause, overwrite = T)
 
+### standard population
+stand_pop <- read.csv("extdata/TBDC_ref_age_standard_population2.csv", stringsAsFactors = F)
+
+stand_pop$age3 <- stand_pop$age1
+stand_pop$percent3 <- stand_pop$percent1
+
+stand_pop$age3[1:18] <- lapply(strsplit(stand_pop$age3[1:18],","),`[[`,1)
+stand_pop$age3 <- as.integer(substr(stand_pop$age3,2,3))
+usethis::use_data(stand_pop, overwrite = T)
 
 
 ####

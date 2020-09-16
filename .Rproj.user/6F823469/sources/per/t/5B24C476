@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600242183032.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2570593910",
+    "id" : "5B24C476",
+    "lastKnownWriteTime" : 1600242393,
+    "last_content_update" : 1600242393192,
+    "path" : "C:/Users/user/Desktop/TBDC_transfer/TWmap/R/stand_pop.R",
+    "project_path" : "R/stand_pop.R",
+    "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
